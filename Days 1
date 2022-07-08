@@ -1,0 +1,11 @@
+1. #Two method to find the size of an array:
+
+# M1:
+int n= *(& arr+1)-arr;
+
+# M2:
+
+int n= sizeof(arr)/sizeof(arr[0]);
+
+2. Find missinf in series by xor
+(1^2^3^5)^(1^2^3^4^5)= 4
