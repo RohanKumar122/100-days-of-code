@@ -11,4 +11,7 @@
 2. Nth Stair problem using Recursion actually DP problem.
 3. Covert Number to its word
 
+## Day 4
+Missing in array in leetcode.
+
 
