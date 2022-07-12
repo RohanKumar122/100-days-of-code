@@ -1,4 +1,6 @@
-## 100-days-of-code
+# 100-days-of-code
+
+## Day 1
 1.This is a new journey I started today by giving a challenge to code 100 days.
 
 
