@@ -14,4 +14,7 @@
 ## Day 4
 Missing in array in leetcode.
 
+## Day 5
+Merge Sort 
+
 
