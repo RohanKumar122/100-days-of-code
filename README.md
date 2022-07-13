@@ -19,4 +19,8 @@ Missing in array in leetcode.
 ## Day 5
 Merge Sort 
 
+## Day 6
+Merge sort Problems
+1. First and last occurance.
+2. Peak muntain problem.
 
