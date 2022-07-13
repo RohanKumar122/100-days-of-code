@@ -1,0 +1,61 @@
+## Find First and Last Position of Element in Sorted Array
+
+class Solution {
+public:
+    vector<int> searchRange(vector<int>& nums, int target) {
+         vector<int> ans;
+        int start = -1;
+        int end = -1;
+    
+        for(int i = 0;i<nums.size();i++){
+            if(nums[i]==target){
+                start = i;
+                break;
+            }
+        }
+        for(int i = nums.size()-1;i>=0;i--){
+            if(nums[i]==target){
+                end = i;
+                break;
+            }
+        }
+        
+        ans.push_back(start);
+        ans.push_back(end);
+        
+        return ans;
+ 
+        
+    }
+};
+
+
+## 852. Peak Index in a Mountain Array
+
+class Solution {
+public:
+    int peakIndexInMountainArray(vector<int>& arr) {
+        // int ans=0;
+        // for(int i=0;i<arr.size();++i){
+        //     if(arr[i]>arr[ans]) ans=i;
+        // }
+        int n=arr.size();
+        int s=0;
+        int e= n-1;
+        int ans =0;
+        int mid =s+(e-s)/2;
+        while(s<e){
+            if(arr[mid]<arr[mid+1]) {
+                s=mid+1;
+            }
+            else { 
+                e=mid;
+            }
+            ans =mid;
+         mid =s+(e-s)/2;
+            
+        }
+        
+        return s;
+    }
+};
