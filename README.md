@@ -24,3 +24,6 @@ Merge sort Problems
 1. First and last occurance.
 2. Peak muntain problem.
 
+## Day 7 
+Square root of binary search
+
