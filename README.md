@@ -27,3 +27,8 @@ Merge sort Problems
 ## Day 7 
 Square root of binary search
 
+##Sorting in Array
+Selection Sort
+2.Insersion sort
+3.Bubbele sort
+
