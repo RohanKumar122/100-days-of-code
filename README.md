@@ -37,5 +37,9 @@ Selection Sort
 
 Reverse a string
 
+## day 10 
+Moving Zeroes 
+merge two array
+
 
 
