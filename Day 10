@@ -1,0 +1,23 @@
+## Moving Zeros
+
+class Solution {
+public:
+    void moveZeroes(vector<int>& nums) {
+        int i=0;
+        int n=nums.size();
+        int p=0;
+        while (i<=n-1){ // here I missed equal sign so last element not checked
+            if(nums[i]==0){
+                // p =i; I done this mistake in first attempt
+                i++;
+            }
+            else {
+                swap(nums[p++],nums[i++]);
+                // p++;
+                // i++;
+            }
+            
+        }
+        
+    }
+};
