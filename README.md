@@ -41,5 +41,10 @@ Reverse a string
 Moving Zeroes 
 merge two array
 
+## Day 11
+
+## Day 12 
+Char in array 
+lenght of array
 
 
