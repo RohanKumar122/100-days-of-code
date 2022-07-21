@@ -1,0 +1,29 @@
+## Maximum occuring character (GFg)
+class Solution
+{
+    public:
+    //Function to find the maximum occurring character in a string.
+    char getMaxOccuringChar(string str)
+    {
+        int arr[26]={0};
+    
+        for(int i=0;i<str.size();i++){
+            char ch =str[i];
+            arr[ch-'a']++;
+           
+                        
+        }
+        int count=0;
+        int ans =0;
+        for(int i=0;i<26;++i){
+            if(arr[i]==count && i>ans){
+                continue;
+            }
+            if(arr[i]>count) {
+                count=arr[i];
+                ans =i;
+                }
+        }return ('a'+ans);
+    }
+
+};
