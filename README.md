@@ -47,8 +47,8 @@ merge two array
 Char in array 
 lenght of array
 
-## Day 13
-
 ## Day 14
 Maximum occuring character (GFg)
+
+## Day 14
 
