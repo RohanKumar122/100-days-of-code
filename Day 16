@@ -1,0 +1,36 @@
+## ROtate matrix by 90 degreee
+
+class Solution {
+public:
+    void rotate(vector<vector<int>>& matrix) {
+        vector<int> v;
+        // vector<vector<int>> ans;
+        int row = matrix.size();
+        int col  =matrix[0].size();
+        
+        int startingRow = 0;
+        int startingCol = 0;
+        int endingRow =row-1;
+        int endingCol =col-1;
+        
+        // int count =0;
+        int total =row*col ;
+        
+        for(int col=startingCol ; col <=endingCol ;col ++){
+            for(int row =endingRow; row>=startingRow ; row --){
+                v.push_back(matrix[row][col]);
+                // count++;
+            }
+        }
+        int index =0;
+        for (int i=0;i<=endingRow ;i++){
+            for(int j=0;j<=endingCol ;j++){
+                
+               matrix[i][j] =v[index++];
+                // index+=1;
+            }
+        }
+        
+        
+    }
+};
