@@ -53,3 +53,5 @@ Maximum occuring character (GFg)
 ## Day 14
 
 ## Day 15
+ ## Day 16 
+ 1. Rotate matrix by 90 degree
