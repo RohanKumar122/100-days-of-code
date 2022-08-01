@@ -55,3 +55,8 @@ Maximum occuring character (GFg)
 ## Day 15
  ## Day 16 
  1. Rotate matrix by 90 degree
+## Day 22
+1. Check shortd array using recursion.
+2.Linear search using recursion,
+3. Binary Search using recursion.
+
